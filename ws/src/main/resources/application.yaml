@@ -25,9 +25,15 @@ elide:
     enableMetaDataStore: true
   dynamic-config:
     enabled: true
+    configApiEnabled: true
     path: demo-configs
 
 spring:
+  config:
+    use-legacy-processing: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
   application:
     name: YavinWS
   jpa:

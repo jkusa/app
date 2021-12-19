@@ -6,6 +6,7 @@ node_modules/
 tmp/
 .DS_Store
 .*.swp
+*.log
 .svn
 *~
 .com.apple.timemachine.supported
@@ -16,6 +17,9 @@ lerna-debug.log
 jsconfig.json
 .gradle
 build/
+
+ws/bin
+ui/bin
 
 ws/derby.log
 
